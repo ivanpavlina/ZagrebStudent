@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="backround" type="color">#E8E8E8</item>
+    <item name="polyline" type="color">#F5D2A2</item>
+    <item name="transparent" type="color">#00000000</item>
+</resources>

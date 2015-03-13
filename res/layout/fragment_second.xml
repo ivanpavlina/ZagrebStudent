@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lytFragment2View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnFragment2Lyt1Switch"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/fragment_second_btn_lyt1_comment" />
+
+        <ListView
+            android:id="@+id/lVFragment2Lyt1Posts"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/btnFragment2Lyt1Switch" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lytFragment2Send"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tVFragment2Lyt2Message"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/lytFragment2Lyt2Buttons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnF2Lyt2Switch"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fragment_second_btn_lyt2_switch_windows" />
+
+            <Button
+                android:id="@+id/btnF2Lyt2Send"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fragment_second_btn_lyt2_comment" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/eTFragment2Lyt2Comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lytFragment2Lyt2Buttons"
+            android:inputType="text" />
+
+        <RatingBar
+            android:id="@+id/rBFragment2Lyt2Rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tVFragment2Lyt2Message"
+            android:layout_centerHorizontal="true"
+            android:numStars="5"
+            android:stepSize="1" />
+    </RelativeLayout>
+
+</RelativeLayout>

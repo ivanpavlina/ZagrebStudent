@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZagrebStudent</string>
+	<string name="empty"></string>
+    
+    <string name="action_find">Pronađi najbližu menzu</string>
+    <string name="action_settings">Postavke</string>
+   	<string name="action_about">O aplikaciji</string>
+    
+    <string name="title_activity_login">Prijava korisnika</string>
+    <string name="title_activity_signup">Registracija korisnika</string>
+    
+	<string name="login_activity_username">Korisničko ime</string>
+    <string name="login_activity_password">Lozinka</string>
+    <string name="login_activity_btn_login">Prijava</string>
+    <string name="login_activity_btn_to_signup">Registriraj se</string>
+    
+    <string name="signup_activity_username">Korisničko ime</string>
+    <string name="signup_activity_password">Lozinka</string>
+    <string name="signup_activity_password_again">Ponovite lozinku</string>
+    <string name="signup_activity_email">E-mail adresa</string>
+    <string name="signup_activity_btn_signup">Registriraj</string>
+	<string name="signup_activity_btn_to_login">Prijavi se</string>
+	
+	<string name="fragment_second_btn_lyt1_comment">Komentiraj</string>
+	<string name="fragment_second_btn_lyt2_switch_windows">Odustani</string>
+	<string name="fragment_second_btn_lyt2_comment">Pošalji komentar</string>
+	
+	<string name="settings_dialog_logout_title">Jeste li sigurni da se želite odjaviti?</string>
+	<string name="settings_dialog_logout_confirm">Odjavi</string>
+	
+	<string name="about_dialog_autor">Autor: Ivan Pavlina</string>
+	<string name="about_dialog_mentor">Mentor: Aleksander Radovan</string>
+	
+	<string name="fragment_third_filters">Filteri</string>
+	<string name="fragment_third_filter_dom">Prikaži domove</string>
+	<string name="fragment_third_filter_men">Prikaži menze</string>
+	<string name="fragment_third_filter_sc">Prikaži studentske centre</string>
+	<string name="fragment_third_settings">Korisničke postavke</string>
+    <string name="fragment_third_setting_user">Korisničko ime: </string>
+    <string name="fragment_third_setting_email">Email adresa: </string>
+    <string name="fragment_third_btn_find">Pronađi najbližu menzu</string>
+    <string name="fragment_third_btn_signout">Odjavi se</string>
+
+    <string name="error_empty_username">Molim upišite korisničko ime</string>
+	<string name="error_empty_password">Molim upišite lozinku</string>
+	<string name="error_empty_password_again">Molim ponovite lozinku</string>
+	<string name="error_empty_email">Molim upišite email adresu</string>
+	<string name="error_mismatch_password">Lozinke se ne podudaraju</string>
+	<string name="error_format_email">Molim upišite ispravnu e-mail adresu</string>
+	
+	<string name="error_downloading_data">Došlo je do greške prilikom preuzimanja podataka</string>
+	<string name="error_downloading_route">Došlo je do greške prilikom preuzimanja rute</string>
+	<string name="error_post_comment">Došlo je do greške prilikom slanja komentara</string>
+	
+	<string name="error_no_selected_marker">Odaberite mjesto na karti kako bi mogli komentirati</string>
+	<string name="error_email_not_verified">Molim potvrdite Vašu e-mail adresu i ponovno pokrenite aplikaciju kako bi mogli komentirati</string>
+	<string name="error_gps_turned_off">Lokacija nije dostupna. Molim provjerite postavke</string>
+	<string name="error_internet_not_available">Internet nije dostupan. Molim provjerite postavke</string>
+	
+	<string name="error_gps_turned_off_open_settings">Otvori postavke lokacije</string>
+	<string name="error_internet_not_available_open_settings">Otvori postavke bežične mreže</string>
+	
+	<string name="progress_please_wait">Molim pričekajte&#8230;</string>
+	<string name="progress_details">Preuzimanje infomacija u tijeku&#8230;</string>
+	<string name="progress_download_comments">Preuzimanje komentara u tijeku&#8230;</string>
+	<string name="progress_download_route">Preuzimanje rute u tijeku&#8230;</string>
+	<string name="progress_send_comment">Slanje komentara u tijeku&#8230;</string>
+	<string name="progress_login">Prijava u tijeku&#8230;</string>
+	<string name="progress_signup">Registracija u tijeku&#8230;</string>
+	
+	<string name="success_downloading_route">Ruta uspješno preuzeta!\nZa uklanjanje napravite dugi klik na karti.</string>
+	
+	
+    <string-array name="marker_heading">
+        <item>Studentski dom Stjepan Radić</item>
+        <item>Studentski dom Šara</item>
+        <item>Studentski dom Cvjetno naselje</item>
+        <item>Studentski dom Lašćina</item>
+       
+        <item>Restoran Savska</item>
+        <item>Restoran Stjepan Radić</item>
+        <item>Restoran Cvjetno Naselje</item>
+        <item>Restoran Restoran Lašćina</item>
+        <item>Restoran Borongaj</item>
+        <item>Restoran Ekonomija</item>
+        <item>Restoran Medicina</item>
+        <item>Restoran Veterina</item>
+        <item>Restoran Šumarstvo</item>
+        <item>Restoran FSB</item>
+        <item>Restoran ALU</item>
+        <item>Restoran TTF</item>
+        
+        <item>Zagrebački Studentski Centar</item>
+        <item>Sisački Studentski Centar</item>
+        <item>Karlovački Studentski Centar</item>
+	</string-array>
+	   
+    <string-array name="marker_address">
+        <item>Jarunska 2</item>
+        <item>Zagrebačka avenija 2</item>
+        <item>Odranska 8</item>
+        <item>Laščinska cesta 32</item>
+        
+        <item>Savska 25\nStudentski centar</item>
+        <item>Jarunska 2\nStudentski Dom Stjepan Radić</item>
+        <item>Odranska 8\nSD Cvjetno naselje</item>
+        <item>Lašćinska cesta 32\nStudetnski Dom Lašćina</item>
+        <item>Borongajska cesta 83f\nZnanstveno-učilišni kampus Borongaj</item>
+        <item>Trg J.F. Kennedyja 6\nEkonomski fakultet</item>
+        <item>Šalata 3b\nMedicinski fakultet</item>
+        <item>Heinzlova 55\nVeterinarski fakultet</item>
+        <item>Svetošimunska 25\nŠumarski fakultet</item>
+        <item>Ivana Lučića 5\nFakultet strojarstva i brodogradnje</item>
+        <item>Ilica 85\nAkademija likovnih umjetnosti</item>
+        <item>Prilaz Baruna Filipovića 28 a\nTekstilno-tehnološki fakultet</item>
+
+        <item>Savska 25</item>
+        <item>Ilica 91</item>
+        <item>Antuna Mihanovića 28</item>
+	</string-array>
+       
+    <string-array name="marker_url">
+        <item>http://www.sczg.unizg.hr/smjestaj/domovi/stjepan-radic/</item>
+        <item>http://www.sczg.unizg.hr/smjestaj/domovi/dr-ante-starcevic/</item>
+        <item>http://www.sczg.unizg.hr/smjestaj/domovi/cvjetno-naselje/</item>
+        <item>http://www.sczg.unizg.hr/smjestaj/domovi/lascina/</item>
+       
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/savska/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/sd-s-radic/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/sd-cvjetno-naselje/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/sd-lascina/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/zuk-borongaj/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/ekonomija/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/medicina/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/veterina/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/sumarstvo/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/fsb/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/alu/</item>
+        <item>http://www.sczg.unizg.hr/prehrana/restorani/blagovaona-ttf/</item>
+	</string-array>
+	
+    <string-array name="sc_details">
+        <item>Radno vrijeme:\n07:00 &#8211; 18:00Tel: 01/4593&#8211;658, 4593&#8211;666\nFax: 01/4593&#8211;560\n\nVoditelj Student servisa\nTel: 01/4593&#8211;671\nFax: 01/4843&#8211;505\nE-mail: sservis@sczg.hr\n\nSlužba za zapošljavanje studenata\nTel: 01/4593&#8211;673, 4593&#8211;674\nE-mail: referada@sczg.hr</item>
+        <item>Radno vrijeme:\n08:00 &#8211; 15:00\n\nTel: 01/3772&#8211;274, 3731877\nFax: 01/3772&#8211;274</item>
+        <item><p>Radno vrijeme:</p><p>08:00 &#8211; 14:30h</p><p>Pauza: 10:30h &#8211; 11:00h</p><p>Tel: 047/609&#8211;710, 609&#8211;711</p><p>Fax: 047/609&#8211;721</p><p>Ravnatelj: g. Davor Jurčević</p><p>Tel: 047/609&#8211;712</p></item>
+    </string-array>
+	    
+</resources>
